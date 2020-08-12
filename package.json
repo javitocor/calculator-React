@@ -6,7 +6,11 @@
     "type": "git",
     "url": "git+https://github.com/javitocor/calculator-React.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "javascript",
+    "microverse",
+    "odin"],
   "author": "Javier Correas",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
