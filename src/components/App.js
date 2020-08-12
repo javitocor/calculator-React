@@ -1,9 +1,12 @@
 import React from 'react';
+import { ButtonPanel } from 'ButtonPanel';
+import { Display } from 'Display';
 
 function App() {
   return (
     <div className="App">
-      <h3>Calculator React</h3>
+      <Display />
+      <ButtonPanel />
     </div>
   );
 }
