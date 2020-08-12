@@ -19,19 +19,12 @@
 [![Issues][issues-shield]][issues-url] 
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
-# Weather-App-JS
+# Calculator-React
 
->  A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with JavaScript.
+>  A calculator for Math-magicians Inc, a fictional company, using REACT.
 
 Landing Page:
 ![screenshot](./assets/screenshot1.png)
-
-Actual Weather:
-![screenshot](./assets/screenshot2.png)
-
-5-Day Forecast:
-![screenshot](./assets/screenshot3.png)
-
 
 Additional description about the project and its features.
 
@@ -41,13 +34,14 @@ Additional description about the project and its features.
 - CSS
 - JAVASCRIPT
 - NPM
-- WEBPACK
-- BOOTSTRAP
+- REACT
+- NODE
+- HEROKU
 - GITHUB ACTIONS
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/javitocor/Weather-App-JS/feature/dist/index.html) :point_left:
+[Live Demo Link]() :point_left:
 
 ## Getting Started
 - Follow the live demo link and enjoy the site.
@@ -68,7 +62,7 @@ Clone the repository unto your local machine cd to the folder.
 
 ## Future features
 
-- Add extra functionality and a contact page.
+- 
 
 ## Author
 
@@ -81,7 +75,7 @@ Clone the repository unto your local machine cd to the folder.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/javitocor/Weather-App-JS/issues).
+Feel free to check the [issues page](https://github.com/javitocor/calculator-React/issues).
 
 ## Show your support
 
@@ -89,7 +83,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments 🚀
 
-- The Odin Project
 - Microverse
 
 ## 📝 License
@@ -98,11 +91,11 @@ This project is [MIT](lic.url) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Weather-App-JS.svg?style=flat-square
-[contributors-url]: https://github.com/javitocor/Weather-App-JS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/javitocor/Weather-App-JS.svg?style=flat-square
-[forks-url]: https://github.com/javitocor/Weather-App-JS/network/members
-[stars-shield]: https://img.shields.io/github/stars/javitocor/Weather-App-JS.svg?style=flat-square
-[stars-url]: https://github.com/javitocor/Weather-App-JS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/javitocor/Weather-App-JS.svg?style=flat-square
-[issues-url]: https://github.com/javitocor/Weather-App-JS/issues
+[contributors-shield]: https://img.shields.io/github/contributors/javitocor/calculator-React.svg?style=flat-square
+[contributors-url]: https://github.com/javitocor/calculator-React/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/javitocor/calculator-React.svg?style=flat-square
+[forks-url]: https://github.com/javitocor/calculator-React/network/members
+[stars-shield]: https://img.shields.io/github/stars/javitocor/calculator-React.svg?style=flat-square
+[stars-url]: https://github.com/javitocor/calculator-React/stargazers
+[issues-shield]: https://img.shields.io/github/issues/javitocor/calculator-React.svg?style=flat-square
+[issues-url]: https://github.com/javitocor/calculator-React/issues
