@@ -37,7 +37,10 @@ Additional description about the project and its features.
 - REACT
 - NODE
 - HEROKU
+- ESLINT
+- STYLELINT
 - GITHUB ACTIONS
+- VSCODE
 
 ## Live Demo
 
@@ -47,22 +50,45 @@ Additional description about the project and its features.
 - Follow the live demo link and enjoy the site.
 
 ### Usage
-- To get a local copy up and running follow these simple example steps.
+To have this app on your pc, you need to:
+* [download](https://github.com/javitocor/calculator-React/archive/development.zip) or clone this repo:
+  - Clone with SSH:
+  ```
+    git@github.com:javitocor/calculator-React.git
+  ```
+  - Clone with HTTPS
+  ```
+    https://github.com/javitocor/calculator-React.git
+  ```
 
-Clone the repository unto your local machine cd to the folder.
+* In the project directory, you can run:
+
+  - `$ npm install` - installs all the dependencies required by the project
+
+  - `$ npm start` - runs the app in the development mode:
+    - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    - The page will reload if you make edits.
+    - You will also see any lint errors in the console.
+
+  - `$ npm run test`
+    - Launches the test runner in the interactive watch mode.
+    - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+  - `$ npm run build`
+    - Builds the app for production to the `build` folder.
+    - It correctly bundles React in production mode and optimizes the build for the best performance.
+    - The build is minified and the filenames include the hashes.
+    - Your app is ready to be deployed!
+
+### Automated Test
+ - `$ npm run test`
+    - Launches the test runner in the interactive watch mode.<br />
+    - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 
 ### Prerequisites
 
 - A modern browser, up to date.  :muscle:
-
-### Run tests
-
-- There is no automated tests for this project.
-
-## Future features
-
-- 
 
 ## Author
 
@@ -83,7 +109,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments 🚀
 
-- Microverse
+- [Microverse](https://www.microverse.org/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Heroku Documentation](https://devcenter.heroku.com/)
+- [Heroku Buildpack](https://github.com/mars/create-react-app-buildpack#user-content-requires)
 
 ## 📝 License
 
