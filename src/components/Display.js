@@ -7,13 +7,13 @@ function Display(props) {
   } = props;
   return (
     <div>
-      {result}
+      <p>{result}</p>
     </div>
   );
 }
 
 Display.defaultProps = {
-  result: 0,
+  result: '0',
 };
 Display.propTypes = {
   result: PropTypes.string,
