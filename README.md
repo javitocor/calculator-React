@@ -44,7 +44,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Heroku Live Demo Link]() :point_left:
+[Heroku Live Demo Link](https://calculator--react.herokuapp.com/) :point_left:
 
 ## Getting Started
 - Follow the live demo link and enjoy the site.
