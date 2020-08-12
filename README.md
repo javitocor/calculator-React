@@ -44,7 +44,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]() :point_left:
+[Heroku Live Demo Link]() :point_left:
 
 ## Getting Started
 - Follow the live demo link and enjoy the site.
@@ -84,11 +84,6 @@ To have this app on your pc, you need to:
  - `$ npm run test`
     - Launches the test runner in the interactive watch mode.<br />
     - See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-
-### Prerequisites
-
-- A modern browser, up to date.  :muscle:
 
 ## Author
 
