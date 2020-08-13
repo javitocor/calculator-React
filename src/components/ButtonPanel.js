@@ -10,9 +10,9 @@ function ButtonPanel() {
     ['0', '.', '='],
   ];
   return (
-    <div>
+    <div className="buttonpanel">
       {symbols.map(symbol => (
-        <div key={symbol}>
+        <div key={symbol} className="row">
           {symbol.map(char => (<Button name={char} key={char} />))}
         </div>
       ))}

@@ -6,7 +6,7 @@ function Display(props) {
     result,
   } = props;
   return (
-    <div>
+    <div className="display">
       <p>{result}</p>
     </div>
   );
