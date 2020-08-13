@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Button(props) {
   const { name, wide, color } = props;
-  const classButton = `button ${color === 'white' ? 'white' : 'orange'} ${wide ? 'double' : ''}`;
+  const classButton = `button ${wide ? `double ${color}` : `${color}`}`;
   return (
     <button type="button" className={classButton}>{name}</button>
   );

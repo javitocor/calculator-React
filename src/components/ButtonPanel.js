@@ -17,7 +17,7 @@ function ButtonPanel() {
             <Button
               name={char}
               key={char}
-              color={!(char === '÷' || char === 'X' || char === '-' || char === '+' || char === '=') ? 'white' : ''}
+              color={!(char === '÷' || char === 'X' || char === '-' || char === '+' || char === '=') ? 'white' : 'orange'}
               wide={(char === '0')}
             />
           ))}
