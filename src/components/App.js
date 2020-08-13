@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Display result={this.passResult} />
-        <ButtonPanel clickHandler={this.handleClick} />
+        <ButtonPanel handleClick={this.handleClick} />
       </div>
     );
   }

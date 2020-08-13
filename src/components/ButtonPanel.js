@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from './Button';
 
-function ButtonPanel() {
+function ButtonPanel({ handleClick }) {
   const symbols = [
     ['AC', '+/-', '%', '÷'],
     ['7', '8', '9', 'X'],
@@ -15,6 +16,7 @@ function ButtonPanel() {
         <div key={symbol} className="row">
           {symbol.map(char => (
             <Button
+              handleClick={handleClick}
               name={char}
               key={char}
               color={!(char === '÷' || char === 'X' || char === '-' || char === '+' || char === '=') ? 'white' : 'orange'}
@@ -26,5 +28,9 @@ function ButtonPanel() {
     </div>
   );
 }
+
+ButtonPanel.propTypes = {
+  handleClick: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;
