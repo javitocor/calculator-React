@@ -23,7 +23,7 @@ class App extends React.Component {
   passResult() {
     const { total, next, operation } = this.state;
     const result = [total, next, operation].filter(item => item !== null);
-    return result === result.length <= 0 ? undefined : result;
+    return result === result.length <= 0 ? undefined : result[0];
   }
 
   render() {
