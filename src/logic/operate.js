@@ -1,5 +1,7 @@
 import Big from './big.mjs';
 
-const operate = () => {
+const operate = (numberOne, numberTwo, operation) => {
 
 };
+
+export default operate;
