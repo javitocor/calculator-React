@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from 'Button';
+import Button from './Button';
 
 function ButtonPanel() {
-  const signs = [
+  const symbols = [
     ['AC', '+/-', '%', '÷'],
     ['7', '8', '9', 'X'],
     ['4', '5', '6', '-'],
@@ -11,9 +11,9 @@ function ButtonPanel() {
   ];
   return (
     <div>
-      {signs.map(sign => (
-        <div key={sign}>
-          {sign.map(char => (<Button name={char} key={char} />))}
+      {symbols.map(symbol => (
+        <div key={symbol}>
+          {symbol.map(char => (<Button name={char} key={char} />))}
         </div>
       ))}
     </div>
