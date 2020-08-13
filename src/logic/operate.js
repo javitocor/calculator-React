@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import Big from './big.mjs';
 
 const operate = (numberOne, numberTwo, operation) => {
@@ -16,7 +17,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = Big(numberOne).div(Big(numberTwo));
       break;
     default:
-      result;
+      result = Big(numberOne).times(Big(numberTwo).times(0.01));
   }
   return result.toString();
 };
