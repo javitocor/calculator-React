@@ -15,13 +15,10 @@ const operate = (numberOne, numberTwo, operation) => {
     case '÷':
       result = Big(numberOne).div(Big(numberTwo));
       break;
-    case '%':
-      result = Big(numberOne).mod(Big(numberTwo));
-      break;
     default:
       result;
   }
-  return result;
+  return result.toString();
 };
 
 export default operate;
