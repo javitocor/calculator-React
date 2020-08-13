@@ -23,7 +23,6 @@
 
 >  A calculator for Math-magicians Inc, a fictional company, using REACT.
 
-Landing Page:
 ![screenshot](./src/assets/screenshot.png)
 
 Additional description about the project and its features.
