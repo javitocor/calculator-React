@@ -1,7 +1,6 @@
 import React from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
-// eslint-disable-next-line no-unused-vars
 import calculate from '../logic/calculate';
 
 class App extends React.Component {
@@ -12,13 +11,26 @@ class App extends React.Component {
       next: null,
       operation: null,
     };
+    this.handleClick = this.handleClick.bind(this);
+    this.passResult = this.passResult.bind(this);
+  }
+
+  handleClick(buttonName) {
+    const calculation = calculate(this.state, buttonName);
+    this.setState(calculation);
+  }
+
+  passResult() {
+    const { total, next, operation } = this.state;
+    const result = [total, next, operation].filter(item => item !== null);
+    return result === result.length <= 0 ? undefined : result;
   }
 
   render() {
     return (
       <div className="App">
-        <Display />
-        <ButtonPanel />
+        <Display result={this.passResult} />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
