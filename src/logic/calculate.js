@@ -34,12 +34,12 @@ const calculate = (object, buttonName) => {
       break;
     case '.':
       if (next) {
-        if (!next.includes('.')) {
+        if (next.indexOf(buttonName) < 0) {
           next += '.';
         }
       } else if (operation) {
         next = '0.';
-      } else if (!total.incudes('.')) {
+      } else if (total.indexOf(buttonName) < 0) {
         total += '.';
       }
       break;
@@ -57,16 +57,20 @@ const calculate = (object, buttonName) => {
         next += buttonName;
       } else if (operation) {
         next = buttonName;
-      } else if (total === '0') {
+      } else if (total === null || total === '0') {
         total = buttonName;
       } else {
         total += buttonName;
       }
       break;
     default:
-      total = operate(total, next, operation);
-      next = null;
-      operation = buttonName;
+      if (next) {
+        total = operate(total, next, operation);
+        next = null;
+        operation = null;
+      } else {
+        operation = buttonName;
+      }
   }
 
   return { total, next, operation };

@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-function ButtonPanel({ handleClick }) {
+function ButtonPanel(props) {
+  const { handleClick } = props;
   const symbols = [
     ['AC', '+/-', '%', '÷'],
     ['7', '8', '9', 'X'],

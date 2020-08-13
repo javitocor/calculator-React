@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/extensions
-import Big from './big.mjs';
+import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
   let result;
