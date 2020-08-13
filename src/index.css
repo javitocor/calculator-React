@@ -41,12 +41,35 @@ code {
   color: white;
   height: 100px;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   padding: 18px;
 }
 
-.buttonpanel {}
+.button {
+  width: 25%;
+  color: black;
+  border: 1px solid gray;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(65, 59, 59);
+}
+
+.double {
+  width: 50%;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.orange:hover {
+  background-color: orangered;
+}
 
 .row {
   display: flex;
+  height: 100px;
 }

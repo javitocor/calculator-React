@@ -13,7 +13,14 @@ function ButtonPanel() {
     <div className="buttonpanel">
       {symbols.map(symbol => (
         <div key={symbol} className="row">
-          {symbol.map(char => (<Button name={char} key={char} />))}
+          {symbol.map(char => (
+            <Button
+              name={char}
+              key={char}
+              color={!(char === '÷' || char === 'X' || char === '-' || char === '+' || char === '=') ? 'white' : ''}
+              wide={(char === '0')}
+            />
+          ))}
         </div>
       ))}
     </div>
