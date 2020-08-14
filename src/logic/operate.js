@@ -1,23 +1,28 @@
-// eslint-disable-next-line import/extensions
-import Big from './big.mjs';
+import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
   let result;
+
   switch (operation) {
     case '+':
-      result = Big(numberOne).plus(Big(numberTwo));
+      result = one.plus(two);
       break;
     case '-':
-      result = Big(numberOne).minus(Big(numberTwo));
+      result = one.minus(two);
       break;
     case 'X':
-      result = Big(numberOne).times(Big(numberTwo));
+      result = one.times(two);
       break;
     case '÷':
-      result = Big(numberOne).div(Big(numberTwo));
+      if (two === '0') {
+        result = undefined;
+      }
+      result = one.div(two);
       break;
     default:
-      result = Big(numberOne).times(Big(numberTwo).times(0.01));
+      result = one.times(two.times(0.01));
   }
   return result.toString();
 };
