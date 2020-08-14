@@ -32,6 +32,10 @@ code {
   width: 700px;
 }
 
+.buttonpanel {
+  display: flex;
+}
+
 .display {
   display: flex;
   justify-content: flex-end;
@@ -47,6 +51,7 @@ code {
 
 .button {
   width: 25%;
+  text-align: center;
   color: black;
   border: 1px solid gray;
   font-size: 2.4rem;
