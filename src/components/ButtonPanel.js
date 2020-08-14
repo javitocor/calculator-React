@@ -20,7 +20,7 @@ function ButtonPanel(props) {
               handleClick={handleClick}
               name={char}
               key={char}
-              color={!(char === '÷' || char === 'X' || char === '-' || char === '+' || char === '=') ? 'white' : 'orange'}
+              color={!(char === '÷' || char === 'x' || char === '-' || char === '+' || char === '=') ? 'white' : 'orange'}
               wide={(char === '0')}
             />
           ))}
