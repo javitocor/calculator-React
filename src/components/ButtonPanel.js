@@ -10,10 +10,17 @@ function ButtonPanel() {
     ['0', '.', '='],
   ];
   return (
-    <div>
+    <div className="buttonpanel">
       {symbols.map(symbol => (
-        <div key={symbol}>
-          {symbol.map(char => (<Button name={char} key={char} />))}
+        <div key={symbol} className="row">
+          {symbol.map(char => (
+            <Button
+              name={char}
+              key={char}
+              color={!(char === '÷' || char === 'X' || char === '-' || char === '+' || char === '=') ? 'white' : 'orange'}
+              wide={(char === '0')}
+            />
+          ))}
         </div>
       ))}
     </div>
